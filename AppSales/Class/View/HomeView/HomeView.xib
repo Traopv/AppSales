@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeView" customModule="AppSales" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Livestream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssg-ah-HTU">
@@ -22,7 +21,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Soo-ud-YhW">
-                    <rect key="frame" x="326" y="49" width="36" height="36"/>
+                    <rect key="frame" x="271" y="49" width="36" height="36"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="36" id="FF4-lf-KKJ"/>
                         <constraint firstAttribute="height" constant="36" id="J0l-gg-HMX"/>
@@ -30,7 +29,7 @@
                     <state key="normal" image="iconCart"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fez-8r-cf3">
-                    <rect key="frame" x="281" y="49" width="36" height="36"/>
+                    <rect key="frame" x="226" y="49" width="36" height="36"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="36" id="Pci-Wv-8fr"/>
                         <constraint firstAttribute="width" constant="36" id="hvy-2d-Ekk"/>
@@ -38,15 +37,14 @@
                     <state key="normal" image="iconSearchHome"/>
                 </button>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tr0-oh-sWN">
-                    <rect key="frame" x="0.0" y="99" width="375" height="568"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <rect key="frame" x="0.0" y="99" width="320" height="469"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <connections>
                         <outlet property="dataSource" destination="iN0-l3-epB" id="OGO-T5-6Yk"/>
                         <outlet property="delegate" destination="iN0-l3-epB" id="8lV-t7-nVf"/>
                     </connections>
                 </tableView>
             </subviews>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <constraints>
                 <constraint firstItem="fez-8r-cf3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="49" id="383-Bn-5HA"/>
                 <constraint firstItem="Soo-ud-YhW" firstAttribute="leading" secondItem="fez-8r-cf3" secondAttribute="trailing" constant="9" id="IvP-QX-OTX"/>
@@ -59,17 +57,15 @@
                 <constraint firstItem="Tr0-oh-sWN" firstAttribute="top" secondItem="Soo-ud-YhW" secondAttribute="bottom" constant="14" id="xGN-Ju-F5Y"/>
                 <constraint firstItem="Soo-ud-YhW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="49" id="xf5-Cm-JdR"/>
             </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="myTable" destination="Tr0-oh-sWN" id="YIm-BX-zZc"/>
             </connections>
-            <point key="canvasLocation" x="-231.19999999999999" y="42.728635682158924"/>
+            <point key="canvasLocation" x="41" y="161"/>
         </view>
     </objects>
     <resources>
         <image name="iconCart" width="36" height="36"/>
         <image name="iconSearchHome" width="36" height="36"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

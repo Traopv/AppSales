@@ -20,10 +20,12 @@ class TabbarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         conFig()
-        setupSegmentControl()
+
+        DispatchQueue.main.async { // Correct
+            self.setupSegmentControl()
+        }
     }
-    
-    //MARK:-
+    //MARK:
     //MARK: conFig
     func conFig(){
         viewSegment.layer.shadowColor = UIColor.black.cgColor

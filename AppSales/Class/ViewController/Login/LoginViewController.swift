@@ -21,14 +21,6 @@ class LoginViewController: UIViewController {
     //MARK:-
     //MARK: conFig
     func conFig(){
-        txtPhone.layer.cornerRadius = 5
-        txtPhone.layer.borderWidth = 1
-        txtPhone.layer.borderColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
-        txtPhone.layer.masksToBounds = true
-        txtPass.layer.cornerRadius = 5
-        txtPass.layer.borderWidth = 1
-        txtPass.layer.borderColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
-        txtPass.layer.masksToBounds = true
         btnLogin.layer.cornerRadius = 5
         btnLogin.layer.masksToBounds = true
         viewRegister.layer.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0)

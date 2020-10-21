@@ -12,8 +12,6 @@
 		18C3BA59253FDEBB00FBD073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3BA57253FDEBB00FBD073 /* Main.storyboard */; };
 		18C3BA5B253FDEBC00FBD073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C3BA5A253FDEBC00FBD073 /* Assets.xcassets */; };
 		18C3BA5E253FDEBC00FBD073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3BA5C253FDEBC00FBD073 /* LaunchScreen.storyboard */; };
-		18C3BA6D253FDF3C00FBD073 /* Register1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3BA6B253FDF3C00FBD073 /* Register1ViewController.swift */; };
-		18C3BA6E253FDF3C00FBD073 /* Register1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C3BA6C253FDF3C00FBD073 /* Register1ViewController.xib */; };
 		18C3BA7A253FECCC00FBD073 /* Register2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3BA78253FECCC00FBD073 /* Register2ViewController.swift */; };
 		18C3BA7B253FECCC00FBD073 /* Register2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C3BA79253FECCC00FBD073 /* Register2ViewController.xib */; };
 		18C3BA7F253FEF0D00FBD073 /* Register3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3BA7D253FEF0D00FBD073 /* Register3ViewController.swift */; };
@@ -43,6 +41,8 @@
 		18C3BC5425403DB500FBD073 /* VTTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3BC4B25403DB500FBD073 /* VTTextFieldExtension.swift */; };
 		18C3BC5625403DB500FBD073 /* VTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3BC4D25403DB500FBD073 /* VTButton.swift */; };
 		18C3BC5725403DB500FBD073 /* VTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3BC4E25403DB500FBD073 /* VTTextField.swift */; };
+		9BDE633125408661000B6F2F /* Register1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE632F25408661000B6F2F /* Register1ViewController.swift */; };
+		9BDE633225408661000B6F2F /* Register1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BDE633025408661000B6F2F /* Register1ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +53,6 @@
 		18C3BA5A253FDEBC00FBD073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C3BA5D253FDEBC00FBD073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C3BA5F253FDEBC00FBD073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C3BA6B253FDF3C00FBD073 /* Register1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register1ViewController.swift; sourceTree = "<group>"; };
-		18C3BA6C253FDF3C00FBD073 /* Register1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Register1ViewController.xib; sourceTree = "<group>"; };
 		18C3BA78253FECCC00FBD073 /* Register2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register2ViewController.swift; sourceTree = "<group>"; };
 		18C3BA79253FECCC00FBD073 /* Register2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Register2ViewController.xib; sourceTree = "<group>"; };
 		18C3BA7D253FEF0D00FBD073 /* Register3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register3ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 		18C3BA84253FF30600FBD073 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		18C3BA8A25400EB800FBD073 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		18C3BA8B25400EB800FBD073 /* TabbarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbarViewController.xib; sourceTree = "<group>"; };
-		18C3BA902540107200FBD073 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		18C3BA9B2540113800FBD073 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		18C3BA9F2540113F00FBD073 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		18C3BAF52540120900FBD073 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
@@ -86,6 +83,9 @@
 		18C3BC4B25403DB500FBD073 /* VTTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTTextFieldExtension.swift; sourceTree = "<group>"; };
 		18C3BC4D25403DB500FBD073 /* VTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTButton.swift; sourceTree = "<group>"; };
 		18C3BC4E25403DB500FBD073 /* VTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTTextField.swift; sourceTree = "<group>"; };
+		9BDE632E25407365000B6F2F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		9BDE632F25408661000B6F2F /* Register1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register1ViewController.swift; sourceTree = "<group>"; };
+		9BDE633025408661000B6F2F /* Register1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Register1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		18C3BA50253FDEBB00FBD073 /* AppSales */ = {
 			isa = PBXGroup;
 			children = (
-				18C3BA902540107200FBD073 /* Bridging-Header.h */,
+				9BDE632E25407365000B6F2F /* Bridging-Header.h */,
 				18C3BA51253FDEBB00FBD073 /* AppDelegate.swift */,
 				18C3BAA22540120900FBD073 /* Library */,
 				18C3BA68253FDF0000FBD073 /* Class */,
@@ -154,8 +154,8 @@
 		18C3BA6A253FDF1100FBD073 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				18C3BA6B253FDF3C00FBD073 /* Register1ViewController.swift */,
-				18C3BA6C253FDF3C00FBD073 /* Register1ViewController.xib */,
+				9BDE632F25408661000B6F2F /* Register1ViewController.swift */,
+				9BDE633025408661000B6F2F /* Register1ViewController.xib */,
 				18C3BA78253FECCC00FBD073 /* Register2ViewController.swift */,
 				18C3BA79253FECCC00FBD073 /* Register2ViewController.xib */,
 				18C3BA7D253FEF0D00FBD073 /* Register3ViewController.swift */,
@@ -364,7 +364,6 @@
 			files = (
 				18C3BA5E253FDEBC00FBD073 /* LaunchScreen.storyboard in Resources */,
 				18C3BC282540270900FBD073 /* HomeTBCell.xib in Resources */,
-				18C3BA6E253FDF3C00FBD073 /* Register1ViewController.xib in Resources */,
 				18C3BC3C2540315400FBD073 /* HomeTableCollectionCell.xib in Resources */,
 				18C3BAA02540113F00FBD073 /* HomeView.xib in Resources */,
 				18C3BA5B253FDEBC00FBD073 /* Assets.xcassets in Resources */,
@@ -374,6 +373,7 @@
 				18C3BA86253FF30600FBD073 /* LoginViewController.xib in Resources */,
 				18C3BC2E2540279A00FBD073 /* HeaderHomeTBCell.xib in Resources */,
 				18C3BC2025401D4D00FBD073 /* ProductsView.xib in Resources */,
+				9BDE633225408661000B6F2F /* Register1ViewController.xib in Resources */,
 				18C3BC422540383000FBD073 /* TopHeaderHomeTBCell.xib in Resources */,
 				18C3BC3525402A1F00FBD073 /* TopHomeCollectionCell.xib in Resources */,
 				18C3BA80253FEF0D00FBD073 /* Register3ViewController.xib in Resources */,
@@ -389,13 +389,13 @@
 			files = (
 				18C3BA85253FF30600FBD073 /* LoginViewController.swift in Sources */,
 				18C3BA56253FDEBB00FBD073 /* ViewController.swift in Sources */,
+				9BDE633125408661000B6F2F /* Register1ViewController.swift in Sources */,
 				18C3BA8C25400EB800FBD073 /* TabbarViewController.swift in Sources */,
 				18C3BC5225403DB500FBD073 /* VTConstants.swift in Sources */,
 				18C3BBB22540120A00FBD073 /* HMSegmentedControl.m in Sources */,
 				18C3BC1D25401D3E00FBD073 /* ProductsView.swift in Sources */,
 				18C3BC2B2540278F00FBD073 /* HeaderHomeTBCell.swift in Sources */,
 				18C3BA7F253FEF0D00FBD073 /* Register3ViewController.swift in Sources */,
-				18C3BA6D253FDF3C00FBD073 /* Register1ViewController.swift in Sources */,
 				18C3BC272540270900FBD073 /* HomeTBCell.swift in Sources */,
 				18C3BA9C2540113800FBD073 /* HomeView.swift in Sources */,
 				18C3BA7A253FECCC00FBD073 /* Register2ViewController.swift in Sources */,
@@ -563,7 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = demo.abc.AppSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/ULife/AppSales/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/DATA/Traopv/AppSales/AppSales/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -583,7 +583,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = demo.abc.AppSales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/ULife/AppSales/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/DATA/Traopv/AppSales/AppSales/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
