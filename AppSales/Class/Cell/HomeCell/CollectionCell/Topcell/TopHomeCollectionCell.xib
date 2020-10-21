@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TopHomeCollectionCell" customModule="AppSales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="210"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="210"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t-pos-dan-tri-final-20021855-afb-2-d-556164-af-795-fb-8-b-9-fa-5980-aa-5-docx-1582538375918 1" translatesAutoresizingMaskIntoConstraints="NO" id="Iy8-0e-zx1">
+                        <rect key="frame" x="16" y="0.0" width="270" height="152"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="152" id="a3y-5L-qJ0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvk-ZS-Mgo">
+                        <rect key="frame" x="24" y="8" width="37" height="20"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="DOc-bK-83F"/>
+                            <constraint firstAttribute="width" constant="37" id="gOt-QS-45r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phát sóng trực tiếp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7V0-dD-P4v">
+                        <rect key="frame" x="16" y="165" width="138" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xả hàng hè 2020, chỉ từ 50k" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Er-kn-kZs">
+                        <rect key="frame" x="16" y="187" width="182" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.51093238590000001" green="0.51102000469999997" blue="0.51091378929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 5" translatesAutoresizingMaskIntoConstraints="NO" id="scL-MG-Emw">
+                        <rect key="frame" x="277" y="168" width="4" height="16"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="1Er-kn-kZs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="1KY-0a-atj"/>
+                <constraint firstItem="Iy8-0e-zx1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Qi9-D7-jRP"/>
+                <constraint firstItem="1Er-kn-kZs" firstAttribute="top" secondItem="7V0-dD-P4v" secondAttribute="bottom" constant="2" id="Qxm-hZ-KzC"/>
+                <constraint firstAttribute="trailing" secondItem="scL-MG-Emw" secondAttribute="trailing" constant="5" id="RaU-sx-RuM"/>
+                <constraint firstItem="Wvk-ZS-Mgo" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="fvY-20-WPi"/>
+                <constraint firstItem="scL-MG-Emw" firstAttribute="top" secondItem="Iy8-0e-zx1" secondAttribute="bottom" constant="16" id="mQ2-Fv-Hnv"/>
+                <constraint firstItem="Wvk-ZS-Mgo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="mgi-Fz-PFW"/>
+                <constraint firstItem="Iy8-0e-zx1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="oVq-Lw-2bo"/>
+                <constraint firstAttribute="trailing" secondItem="Iy8-0e-zx1" secondAttribute="trailing" id="pdd-Qa-dOZ"/>
+                <constraint firstItem="7V0-dD-P4v" firstAttribute="top" secondItem="Iy8-0e-zx1" secondAttribute="bottom" constant="13" id="wsa-Ed-J0d"/>
+                <constraint firstItem="7V0-dD-P4v" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="xtO-cO-xYi"/>
+            </constraints>
+            <size key="customSize" width="340" height="299"/>
+            <connections>
+                <outlet property="imgCell" destination="Iy8-0e-zx1" id="JLl-bT-eBQ"/>
+                <outlet property="lbLive" destination="Wvk-ZS-Mgo" id="2sG-Uh-67U"/>
+                <outlet property="lbTitle" destination="1Er-kn-kZs" id="DMc-jH-YBp"/>
+                <outlet property="lbType" destination="7V0-dD-P4v" id="tKp-2j-SYn"/>
+            </connections>
+            <point key="canvasLocation" x="-130.43478260869566" y="93.75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Group 5" width="4" height="16"/>
+        <image name="t-pos-dan-tri-final-20021855-afb-2-d-556164-af-795-fb-8-b-9-fa-5980-aa-5-docx-1582538375918 1" width="270" height="152"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
