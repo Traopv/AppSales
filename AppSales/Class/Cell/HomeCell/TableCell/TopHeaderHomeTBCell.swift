@@ -38,6 +38,11 @@ extension TopHeaderHomeTBCell : UICollectionViewDelegate,UICollectionViewDataSou
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TopHomeCollectionCell", for: indexPath) as! TopHomeCollectionCell
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        let nc = NotificationCenter.default
+//        nc.post(name: Notification.Name("pushToVideoVC"), object: nil)
+    }
 }
 
 //MARK:-

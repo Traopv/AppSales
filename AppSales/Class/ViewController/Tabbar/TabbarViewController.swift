@@ -32,7 +32,17 @@ class TabbarViewController: UIViewController {
         viewSegment.layer.shadowOpacity = 0.3
         viewSegment.layer.shadowRadius = 2
         viewSegment.layer.shadowOffset = CGSize(width: 0, height: 0)
+        
+//        let nc = NotificationCenter.default
+//        nc.addObserver(self, selector: #selector(handleCalendarPermissionAccessed), name: Notification.Name("pushToVideoVC"), object: nil)
     }
+    
+//    @objc  func handleCalendarPermissionAccessed(){
+//        DispatchQueue.main.async {
+//            let videoVC = VideoViewController.init()
+//            self.navigationController?.pushViewController(videoVC, animated: false)
+//        }
+//    }
     
     //MARK:-
     //MARK: SETUP SEGMENT
@@ -71,7 +81,6 @@ class TabbarViewController: UIViewController {
 //
         viewProducts = ProductsView().fromNib(nibName: "ProductsView") as? ProductsView
         viewProducts.frame =  CGRect(x: width, y: 0, width: width, height: self.mScroll.frame.size.height)
-//        viewProducts.configViewUI()
         self.mScroll.addSubview(viewProducts)
 ////
 //        viewMatching = MatchingView().fromNib(nibName: "MatchingView") as? MatchingView

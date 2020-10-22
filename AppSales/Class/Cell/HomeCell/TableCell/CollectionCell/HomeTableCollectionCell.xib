@@ -12,10 +12,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeTableCollectionCell" customModule="AppSales" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="219" height="400"/>
+            <rect key="frame" x="0.0" y="0.0" width="219" height="417"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="219" height="400"/>
+                <rect key="frame" x="0.0" y="0.0" width="219" height="417"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fd7f2adca7008d30118b612a14f0bbca 1" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-vO-8cW">
@@ -52,7 +52,7 @@
                         <color key="textColor" red="0.94770938159999996" green="0.60001701119999995" blue="0.29037374259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Áo nữ thu đông dáng Nhật Bản" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cT-Vf-uTb">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Áo nữ thu đông dáng Nhật " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cT-Vf-uTb">
                         <rect key="frame" x="16" y="305" width="203" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
@@ -117,7 +117,7 @@
                 <constraint firstItem="gKt-2E-qUT" firstAttribute="top" secondItem="Wqd-vO-8cW" secondAttribute="bottom" constant="7" id="r1y-4X-ZDV"/>
                 <constraint firstItem="Wqd-vO-8cW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xOu-hk-8Kp"/>
             </constraints>
-            <size key="customSize" width="317" height="294"/>
+            <size key="customSize" width="317" height="311"/>
             <connections>
                 <outlet property="btnAddToCart" destination="Zox-za-cFK" id="42N-Ye-zZC"/>
                 <outlet property="imgCell" destination="Wqd-vO-8cW" id="4Wv-gi-loB"/>
@@ -127,7 +127,7 @@
                 <outlet property="lbPoint" destination="JwH-7X-7nG" id="fDY-R4-kGC"/>
                 <outlet property="lbTitle" destination="6cT-Vf-uTb" id="ZAJ-4i-zL7"/>
             </connections>
-            <point key="canvasLocation" x="-198" y="147"/>
+            <point key="canvasLocation" x="-341.304347826087" y="45.200892857142854"/>
         </collectionViewCell>
     </objects>
     <resources>

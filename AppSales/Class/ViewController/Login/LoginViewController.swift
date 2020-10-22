@@ -32,6 +32,49 @@ class LoginViewController: UIViewController {
     @IBAction func login(_ sender: Any) {
         let tabbarVC = TabbarViewController.init()
         self.navigationController?.pushViewController(tabbarVC, animated: false)
+        
+//        let userName = txtPhone.text ?? ""
+//        let password = txtPass.text ?? ""
+//        if(userName.count == 0){
+//            VTBase.showToastWithMessage(message: "Vui lòng nhập tên đăng nhập")
+//            return
+//        }
+//        if(password.count == 0){
+//            VTBase.showToastWithMessage(message: "Vui lòng nhập mật khẩu")
+//            return
+//        }
+//        VTBase.showLoading()
+//        HAPI.requestLoginByUserName(userName: userName, password: password, completion: { (responseData) in
+//            print("login success: ", responseData)
+//            VTBase.hideLoading()
+//            if let data = responseData.object(forKey: "data") as? NSDictionary
+//            {
+//                if let token = data.object(forKey: "token") as? String
+//                {
+//                    AppManager.shared.authorToken = token
+//                }
+//                if let user = data.object(forKey: "user") as? NSDictionary
+//                {
+//                    AppManager.shared.userInfo = user
+//                }
+//            }
+//            //đăng nhập thành công thì lưu lại tên đăng nhập, mật khẩu để lần sau đỡ phải gõ
+//            let defaults = UserDefaults.standard
+//            defaults.set(userName, forKey: AppManager.shared.userNameKey)
+//            defaults.set(password, forKey: AppManager.shared.passwordKey)
+//            defaults.synchronize()
+//            //Go to home
+////            if let window = UIApplication.shared.windows.first {
+////                           let tabbarVC = TabbarViewController.init()
+////                           let menuVC = SideMenuViewController.init()
+////                           window.rootViewController = SideMenuController(contentViewController: tabbarVC, menuViewController: menuVC)
+////                       }
+//            let tabbarVC = TabbarViewController.init()
+//            self.navigationController?.pushViewController(tabbarVC, animated: false)
+//
+//        }) { (error) in
+//            print("==> login error : ", error)
+//        }
     }
     @IBAction func pushToRegister(_ sender: Any) {
         let registerVC = Register1ViewController.init()

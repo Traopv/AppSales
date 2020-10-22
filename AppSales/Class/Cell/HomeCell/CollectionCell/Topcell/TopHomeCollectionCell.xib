@@ -73,7 +73,7 @@
                 <outlet property="lbTitle" destination="1Er-kn-kZs" id="DMc-jH-YBp"/>
                 <outlet property="lbType" destination="7V0-dD-P4v" id="tKp-2j-SYn"/>
             </connections>
-            <point key="canvasLocation" x="-130.43478260869566" y="93.75"/>
+            <point key="canvasLocation" x="130" y="82"/>
         </collectionViewCell>
     </objects>
     <resources>

@@ -1,0 +1,6 @@
+framework module Pods_AppSales {
+  umbrella header "Pods-AppSales-umbrella.h"
+
+  export *
+  module * { export * }
+}

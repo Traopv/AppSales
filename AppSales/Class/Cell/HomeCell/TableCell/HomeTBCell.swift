@@ -42,6 +42,19 @@ extension HomeTBCell : UICollectionViewDelegate,UICollectionViewDataSource,UIScr
         cell.conFig()
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let  popupOrderView : PopupOrderView = PopupOrderView().fromNib(nibName: "PopupOrderView", index: 0) as! PopupOrderView
+        popupOrderView.conFig()
+        popupOrderView.frame = CGRect(x: VTConstants.ScreenSize.SCREEN_HEIGHT, y: 0, width: VTConstants.ScreenSize.SCREEN_WIDTH, height: VTConstants.ScreenSize.SCREEN_HEIGHT * 0.6)
+        popupOrderView.layer.cornerRadius = 15
+        popupOrderView.layer.masksToBounds = true
+        let klc = KLCPopup.init(contentView: popupOrderView)
+        klc?.showType = .fadeIn
+        klc?.dismissType = .shrinkOut
+        klc?.maskType = .dimmed
+        klc?.shouldDismissOnBackgroundTouch = true
+        klc?.show()
+    }
 }
 
 //MARK:-
@@ -50,7 +63,7 @@ extension HomeTBCell: UICollectionViewDelegateFlowLayout {
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width : CGFloat = 219
-        let height: CGFloat = 400
+        let height: CGFloat = 417
         return CGSize(width: width, height: height)
     }
 

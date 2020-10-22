@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
 
-        let welcome = Register1ViewController.init()
+        let welcome = LoginViewController.init()
         let nav = UINavigationController(rootViewController: welcome)
         window?.rootViewController = nav
 
