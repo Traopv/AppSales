@@ -28,31 +28,31 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t-pos-dan-tri-final-20021855-afb-2-d-556164-af-795-fb-8-b-9-fa-5980-aa-5-docx-1582538375918 1" translatesAutoresizingMaskIntoConstraints="NO" id="NNq-Xq-RKg">
-                    <rect key="frame" x="0.0" y="44" width="320" height="148"/>
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5N lượt xem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8D-Er-Vl4">
-                    <rect key="frame" x="16" y="236" width="87.5" height="19.5"/>
+                    <rect key="frame" x="16" y="192" width="87.5" height="19.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <color key="textColor" red="0.51093238590000001" green="0.51102000469999997" blue="0.51091378929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN0-7l-wl7">
-                    <rect key="frame" x="115.5" y="236" width="30" height="20"/>
+                    <rect key="frame" x="115.5" y="192" width="30" height="20"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <color key="textColor" systemColor="systemPinkColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 5" translatesAutoresizingMaskIntoConstraints="NO" id="06N-Qr-zf4">
-                    <rect key="frame" x="300" y="208" width="4" height="16"/>
+                    <rect key="frame" x="300" y="164" width="4" height="16"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phát sóng trực tiếp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tia-my-GOE">
-                    <rect key="frame" x="16" y="206" width="138" height="20"/>
+                    <rect key="frame" x="16" y="162" width="138" height="20"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r16-uQ-7z5">
-                    <rect key="frame" x="10" y="54" width="37" height="20"/>
+                    <rect key="frame" x="10" y="14" width="37" height="20"/>
                     <color key="backgroundColor" systemColor="systemRedColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="20" id="DgP-bT-Hsz"/>
@@ -63,43 +63,43 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/10/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1m-WH-PEb">
-                    <rect key="frame" x="159" y="206" width="82" height="20"/>
+                    <rect key="frame" x="159" y="162" width="82" height="20"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X20-gQ-AeG">
-                    <rect key="frame" x="0.0" y="270" width="320" height="1"/>
+                    <rect key="frame" x="0.0" y="226" width="320" height="1"/>
                     <color key="backgroundColor" red="0.96938389540000003" green="0.96954256299999997" blue="0.96935027839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="G7N-r0-6hf"/>
                     </constraints>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fashion-and-dress-design-logo-vector-24761725 1" translatesAutoresizingMaskIntoConstraints="NO" id="eGJ-vD-l6t">
-                    <rect key="frame" x="16" y="283" width="40" height="40"/>
+                    <rect key="frame" x="16" y="239" width="40" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="OnU-9i-HbW"/>
                         <constraint firstAttribute="width" constant="40" id="oy3-aq-zp8"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cô chủ nhỏ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Pz-c7-l2C">
-                    <rect key="frame" x="68" y="285" width="84.5" height="19.5"/>
+                    <rect key="frame" x="68" y="241" width="84.5" height="19.5"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chuyên thời trang nữ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiV-Qh-PLf">
-                    <rect key="frame" x="68" y="305.5" width="136" height="17"/>
+                    <rect key="frame" x="68" y="261.5" width="136" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" red="0.51093238590000001" green="0.51102000469999997" blue="0.51091378929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Ji-cL-f4y">
-                    <rect key="frame" x="0.0" y="340" width="320" height="228"/>
+                    <rect key="frame" x="0.0" y="296" width="320" height="272"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <connections>
-                        <outlet property="dataSource" destination="i5M-Pr-FkT" id="O83-Ak-NHk"/>
-                        <outlet property="delegate" destination="i5M-Pr-FkT" id="CQj-xC-wBy"/>
+                        <outlet property="dataSource" destination="-1" id="jMR-qY-3w3"/>
+                        <outlet property="delegate" destination="-1" id="F9j-cH-0r0"/>
                     </connections>
                 </tableView>
             </subviews>
@@ -127,13 +127,13 @@
                 <constraint firstItem="u1m-WH-PEb" firstAttribute="top" secondItem="NNq-Xq-RKg" secondAttribute="bottom" constant="14" id="Zha-JN-g1P"/>
                 <constraint firstItem="Tia-my-GOE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="aXp-UN-ZWI"/>
                 <constraint firstItem="X20-gQ-AeG" firstAttribute="top" secondItem="TN0-7l-wl7" secondAttribute="bottom" constant="14" id="bIx-wC-ILJ"/>
-                <constraint firstItem="NNq-Xq-RKg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="44" id="fii-2y-lJj"/>
+                <constraint firstItem="NNq-Xq-RKg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="fii-2y-lJj"/>
                 <constraint firstItem="2Ji-cL-f4y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gwH-Zc-9hE"/>
                 <constraint firstItem="W8D-Er-Vl4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="izz-Zh-Ctq"/>
                 <constraint firstItem="2Ji-cL-f4y" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="jux-B7-Bnm"/>
                 <constraint firstItem="Tia-my-GOE" firstAttribute="top" secondItem="NNq-Xq-RKg" secondAttribute="bottom" constant="14" id="nVO-tQ-1mm"/>
                 <constraint firstItem="2Ji-cL-f4y" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="rLB-NY-YkA"/>
-                <constraint firstItem="r16-uQ-7z5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="54" id="tx1-TR-JFY"/>
+                <constraint firstItem="r16-uQ-7z5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="14" id="tx1-TR-JFY"/>
                 <constraint firstItem="TN0-7l-wl7" firstAttribute="leading" secondItem="W8D-Er-Vl4" secondAttribute="trailing" constant="12" id="x5x-9f-4XE"/>
             </constraints>
             <point key="canvasLocation" x="-165" y="92"/>

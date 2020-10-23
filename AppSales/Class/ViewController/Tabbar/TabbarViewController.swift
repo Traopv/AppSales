@@ -33,16 +33,16 @@ class TabbarViewController: UIViewController {
         viewSegment.layer.shadowRadius = 2
         viewSegment.layer.shadowOffset = CGSize(width: 0, height: 0)
         
-//        let nc = NotificationCenter.default
-//        nc.addObserver(self, selector: #selector(handleCalendarPermissionAccessed), name: Notification.Name("pushToVideoVC"), object: nil)
+        let nc = NotificationCenter.default
+        nc.addObserver(self, selector: #selector(handlePushToVideoVC), name: Notification.Name("pushToVideoVC"), object: nil)
     }
     
-//    @objc  func handleCalendarPermissionAccessed(){
-//        DispatchQueue.main.async {
-//            let videoVC = VideoViewController.init()
-//            self.navigationController?.pushViewController(videoVC, animated: false)
-//        }
-//    }
+    @objc  func handlePushToVideoVC(){
+        DispatchQueue.main.async {
+            let videoVC = VideoViewController.init()
+            self.navigationController?.pushViewController(videoVC, animated: false)
+        }
+    }
     
     //MARK:-
     //MARK: SETUP SEGMENT

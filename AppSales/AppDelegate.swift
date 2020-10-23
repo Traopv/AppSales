@@ -19,9 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let welcome = LoginViewController.init()
         let nav = UINavigationController(rootViewController: welcome)
         window?.rootViewController = nav
-
         window?.makeKeyAndVisible()
-        
         return true
     }
 }

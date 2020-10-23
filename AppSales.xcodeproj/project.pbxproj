@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18069A312542C0DD00333BEF /* DetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18069A2F2542C0DD00333BEF /* DetailProductViewController.swift */; };
+		18069A322542C0DD00333BEF /* DetailProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18069A302542C0DD00333BEF /* DetailProductViewController.xib */; };
+		18069A372542CEE800333BEF /* VideoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18069A352542CEE800333BEF /* VideoCollectionCell.swift */; };
+		18069A382542CEE800333BEF /* VideoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18069A362542CEE800333BEF /* VideoCollectionCell.xib */; };
 		18076F8D2541624E0006E5A3 /* PopupOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076F8C2541624E0006E5A3 /* PopupOrderView.swift */; };
 		18076F91254162560006E5A3 /* PopupOrderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18076F90254162560006E5A3 /* PopupOrderView.xib */; };
 		18076F9D254169A70006E5A3 /* PopupOderCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076F9B254169A70006E5A3 /* PopupOderCell1.swift */; };
@@ -128,6 +132,10 @@
 /* Begin PBXFileReference section */
 		06CF984235858748732F8D93 /* Pods-AppSales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSales.release.xcconfig"; path = "Target Support Files/Pods-AppSales/Pods-AppSales.release.xcconfig"; sourceTree = "<group>"; };
 		07A24A03BD25A5C159BEE658 /* Pods-AppSales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSales.debug.xcconfig"; path = "Target Support Files/Pods-AppSales/Pods-AppSales.debug.xcconfig"; sourceTree = "<group>"; };
+		18069A2F2542C0DD00333BEF /* DetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductViewController.swift; sourceTree = "<group>"; };
+		18069A302542C0DD00333BEF /* DetailProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailProductViewController.xib; sourceTree = "<group>"; };
+		18069A352542CEE800333BEF /* VideoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionCell.swift; sourceTree = "<group>"; };
+		18069A362542CEE800333BEF /* VideoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionCell.xib; sourceTree = "<group>"; };
 		18076F8C2541624E0006E5A3 /* PopupOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupOrderView.swift; sourceTree = "<group>"; };
 		18076F90254162560006E5A3 /* PopupOrderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupOrderView.xib; sourceTree = "<group>"; };
 		18076F9B254169A70006E5A3 /* PopupOderCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupOderCell1.swift; sourceTree = "<group>"; };
@@ -266,6 +274,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18069A2E2542C0BD00333BEF /* DetailProduct */ = {
+			isa = PBXGroup;
+			children = (
+				18069A2F2542C0DD00333BEF /* DetailProductViewController.swift */,
+				18069A302542C0DD00333BEF /* DetailProductViewController.xib */,
+			);
+			path = DetailProduct;
+			sourceTree = "<group>";
+		};
+		18069A342542CEC500333BEF /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				18069A352542CEE800333BEF /* VideoCollectionCell.swift */,
+				18069A362542CEE800333BEF /* VideoCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
 		18076F8B254160F10006E5A3 /* PopupOrder */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +446,7 @@
 		18B7D128254188EE00BF49C3 /* VideoCell */ = {
 			isa = PBXGroup;
 			children = (
+				18069A342542CEC500333BEF /* CollectionCell */,
 				18B7D1292541890000BF49C3 /* TableCell */,
 			);
 			path = VideoCell;
@@ -483,6 +510,7 @@
 		18C3BA69253FDF0900FBD073 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				18069A2E2542C0BD00333BEF /* DetailProduct */,
 				18B7D1212541842100BF49C3 /* Video */,
 				18C3BA8925400EA200FBD073 /* Tabbar */,
 				18C3BA82253FF2EF00FBD073 /* Login */,
@@ -525,7 +553,7 @@
 		18C3BA992540111700FBD073 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				18C3BC1B25401D2800FBD073 /* Products */,
+				18C3BC1B25401D2800FBD073 /* ProductsView */,
 				18C3BA9A2540112200FBD073 /* HomeView */,
 			);
 			path = View;
@@ -572,13 +600,13 @@
 			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
-		18C3BC1B25401D2800FBD073 /* Products */ = {
+		18C3BC1B25401D2800FBD073 /* ProductsView */ = {
 			isa = PBXGroup;
 			children = (
 				18C3BC1C25401D3E00FBD073 /* ProductsView.swift */,
 				18C3BC1F25401D4D00FBD073 /* ProductsView.xib */,
 			);
-			path = Products;
+			path = ProductsView;
 			sourceTree = "<group>";
 		};
 		18C3BC22254026E100FBD073 /* Cell */ = {
@@ -733,6 +761,7 @@
 				18C3BA5E253FDEBC00FBD073 /* LaunchScreen.storyboard in Resources */,
 				18C3BC282540270900FBD073 /* HomeTBCell.xib in Resources */,
 				18076FA325416B740006E5A3 /* PopupOrderCell2.xib in Resources */,
+				18069A382542CEE800333BEF /* VideoCollectionCell.xib in Resources */,
 				18B7D0E925417CD000BF49C3 /* LICENSE in Resources */,
 				18C3BC3C2540315400FBD073 /* HomeTableCollectionCell.xib in Resources */,
 				18C3BAA02540113F00FBD073 /* HomeView.xib in Resources */,
@@ -748,6 +777,7 @@
 				18B7D09E254179B800BF49C3 /* menu.png in Resources */,
 				18C3BC2025401D4D00FBD073 /* ProductsView.xib in Resources */,
 				9BDE633225408661000B6F2F /* Register1ViewController.xib in Resources */,
+				18069A322542C0DD00333BEF /* DetailProductViewController.xib in Resources */,
 				18C3BC422540383000FBD073 /* TopHeaderHomeTBCell.xib in Resources */,
 				18C3BC3525402A1F00FBD073 /* TopHomeCollectionCell.xib in Resources */,
 				18B7D09F254179B800BF49C3 /* menu@2x.png in Resources */,
@@ -821,6 +851,7 @@
 				18C3BC5225403DB500FBD073 /* VTConstants.swift in Sources */,
 				18B7D10125417CD000BF49C3 /* URLExtensions.swift in Sources */,
 				18076FB3254178330006E5A3 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				18069A372542CEE800333BEF /* VideoCollectionCell.swift in Sources */,
 				18B7D0F225417CD000BF49C3 /* TimerExtensions.swift in Sources */,
 				18C3BBB22540120A00FBD073 /* HMSegmentedControl.m in Sources */,
 				18B7D0F325417CD000BF49C3 /* BlockSwipe.swift in Sources */,
@@ -871,6 +902,7 @@
 				18076F8D2541624E0006E5A3 /* PopupOrderView.swift in Sources */,
 				18B7D11A25417CD000BF49C3 /* UIAlertControllerExtensions.swift in Sources */,
 				18B7D11025417CD000BF49C3 /* UILabelExtensions.swift in Sources */,
+				18069A312542C0DD00333BEF /* DetailProductViewController.swift in Sources */,
 				18B7D10425417CD000BF49C3 /* CollectionsExtension.swift in Sources */,
 				18B7D10F25417CD000BF49C3 /* DateExtensions.swift in Sources */,
 				18B7D0FC25417CD000BF49C3 /* UIColoredView.swift in Sources */,

@@ -20,7 +20,7 @@ class VideoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        conFig()
     }
     
     //MARK:-
@@ -33,23 +33,22 @@ class VideoViewController: UIViewController {
 //MARK:-
 //MARK: Table
 extension VideoViewController : UITableViewDelegate,UITableViewDataSource {
-    
+
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
-        
+        return 2
     }
-    
+
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        
+
         let headerVideoCell = HeaderVideoCell().fromNib(nibName: "HeaderVideoCell") as! HeaderVideoCell
         headerVideoCell.conFig()
         return headerVideoCell
     }
-    
+
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 //        var number = 0
 //        if indexPath.section == 0 {
@@ -59,14 +58,19 @@ extension VideoViewController : UITableViewDelegate,UITableViewDataSource {
 //        }
 //        return CGFloat(number)
 //    }
-    
+
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        
+
         return 35
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "VideoTableCell", for: indexPath) as! VideoTableCell
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailProductVC = DetailProductViewController.init()
+        self.navigationController?.pushViewController(detailProductVC, animated: true)
     }
 }

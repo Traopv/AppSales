@@ -13,6 +13,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var txtPass: UITextField!
     @IBOutlet weak var btnLogin: UIButton!
     @IBOutlet weak var viewRegister: UIView!
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         conFig()
@@ -21,7 +24,15 @@ class LoginViewController: UIViewController {
     //MARK:-
     //MARK: conFig
     func conFig(){
-        btnLogin.layer.cornerRadius = 5
+        view1.layer.borderWidth = 1.0
+        view1.layer.cornerRadius = 4.0
+        view1.layer.borderColor = UIColor(hexString: "#828282")?.cgColor
+        
+        view2.layer.borderWidth = 1.0
+        view2.layer.cornerRadius = 4.0
+        view2.layer.borderColor = UIColor(hexString: "#828282")?.cgColor
+        
+        btnLogin.layer.cornerRadius = 2.0
         btnLogin.layer.masksToBounds = true
         viewRegister.layer.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0)
         self.navigationController?.isNavigationBarHidden = true
@@ -76,14 +87,23 @@ class LoginViewController: UIViewController {
 //            print("==> login error : ", error)
 //        }
     }
+    
     @IBAction func pushToRegister(_ sender: Any) {
         let registerVC = Register1ViewController.init()
-        self.navigationController?.pushViewController(registerVC, animated: false)
+        self.navigationController?.pushViewController(registerVC, animated: true)
     }
+    
     @IBAction func forgotPassword(_ sender: Any) {
     }
+    
     @IBAction func loginWithApple(_ sender: Any) {
     }
+    
     @IBAction func loginWithFacebook(_ sender: Any) {
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        txtPass.resignFirstResponder()
+        txtPhone.resignFirstResponder()
     }
 }
